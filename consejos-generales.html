@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejos Generales - Seguridad en la Web</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        /* Estilo para la imagen */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura de la ventana */
+        }
+
+        .image-container img {
+            max-width: 80%; /* Ajustar tamaño máximo de la imagen */
+            height: auto; /* Altura automática proporcional */
+            max-height: 80vh; /* Altura máxima de la imagen */
+        }
+
+        /* Animación de rebote */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seguridad en la Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="consejos-generales.html">Consejos Generales</a></li>
+                <li><a href="proteccion-contrasenas.html">Protección de Contraseñas</a></li>
+                <li><a href="proteccion-malware.html">Protección contra Malware</a></li>
+                <li><a href="recursos-enlaces.html">Recursos y Enlaces</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Consejos Generales de Seguridad</h2>
+            <p>Mantener la seguridad en línea es fundamental en la era digital, donde dependemos cada vez más de internet para realizar diversas actividades. Aquí te presentamos una serie de consejos generales que te ayudarán a navegar por la web de manera más segura y protegida.</p>
+      
+      <p>1. Mantén tus dispositivos y software actualizados: Asegúrate de que tu sistema operativo, navegador y aplicaciones instaladas se encuentren siempre actualizados. Los proveedores de software lanzar regularmente parches de seguridad para corregir vulnerabilidades conocidas, por lo que mantener tus dispositivos actualizados es crucial para evitar que los ciberdelincuentes puedan explotar estas debilidades.</p>
+      
+      <p>2. Sé cauteloso con los enlaces y archivos de fuentes desconocidas: Uno de los principales vectores de ataque de los ciberdelincuentes son los enlaces y archivos maliciosos. Evita hacer clic en enlaces o descargar archivos de fuentes que no sean de confianza, ya que podrían contener malware o ser parte de un esquema de phishing.</p>
+      
+      <p>3. Utiliza conexiones seguras (HTTPS) siempre que sea posible: Asegúrate de que los sitios web que visitas cuenten con el protocolo HTTPS, el cual proporciona una conexión encriptada y más segura. Evita realizar transacciones o ingresar información confidencial en sitios que no utilicen HTTPS.</p>
+      
+      <p>4. Sé consciente de tu entorno al realizar transacciones en línea: Cuando realices compras, pagos o accedas a información confidencial en línea, asegúrate de que nadie esté observando tu pantalla o tu dispositivo. Evita realizar este tipo de actividades en espacios públicos o redes inalámbricas inseguras.</p>
+      
+      <p>5. Mantén tu computadora y dispositivos protegidos: Instala y mantén actualizado un software antivirus y un firewall en tus dispositivos. Estos programas te ayudarán a detectar y bloquear amenazas maliciosas, brindando una capa adicional de protección.</p>
+      
+      
+    </section>
+            
+            <!-- Consejos Generales -->
+
+        </section>
+    </main>
+
+    <div class="image-container">
+        <img srcset="https://cdn.pixabay.com/photo/2015/09/07/08/22/under-928246_960_720.jpg 1x, https://cdn.pixabay.com/photo/2015/09/07/08/22/under-928246_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2015/09/07/08/22/under-928246_1280.jpg" alt="Bajo, Construcción, Sitio Web" class="bounce">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Seguridad en la Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
